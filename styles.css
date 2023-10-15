@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(135deg,rgb(70,25,180),rgb(110,136,196));
+}
+header{
+    font-family:"Roboto";
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(228, 228, 46);
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculate{
+    width:50%;
+    padding:25px 25px;
+    margin-top:10vh;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.2);
+    /*background-color: hsla(120, 100%, 50%, 0.3);*/
+   
+}
+#birthDate{
+    margin:0 5% 0 0;
+    width:70%;
+    height:7vh;
+    padding:8px 8px 8px 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#calculate-me{
+    text-align: center;
+    background-color: rgb(228, 228, 46);
+    height: 7vh;
+    width:20%;
+    padding:5px;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 450;
+    
+}
+#calculate-me:hover{
+    background-color: rgb(238, 238, 25);
+    
+    cursor: pointer;
+}
+.container{
+    padding:20px 0;
+    margin:20vh 0 0 80px;
+}
+
+#result{
+    margin:20px 0;
+    color:aliceblue;
+}
